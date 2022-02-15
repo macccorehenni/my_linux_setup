@@ -10,3 +10,6 @@ sudo apt install -y qutebrowser
 sudo apt install -y nano
 sudo apt install -y gnome-shell-pomodoro
 #end APT repos
+#start installs of .debs etc.
+#VS Code
+sudo dpkg -i code_1.64.2-1644444223_arm64.deb
