@@ -13,3 +13,8 @@ sudo apt install -y gnome-shell-pomodoro
 #start installs of .debs etc.
 #VS Code
 sudo dpkg -i code_1.64.2-1644444223_arm64.deb
+#VIT
+git clone https://github.com/macccorehenni/vit.git
+cd vit
+pip install vit
+#end VIT
