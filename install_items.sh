@@ -17,4 +17,6 @@ sudo dpkg -i code_1.64.2-1644444223_arm64.deb
 git clone https://github.com/macccorehenni/vit.git
 cd vit
 pip install vit
+mv vit .vitsrc
 #end VIT
+#end non-APT installs
