@@ -9,6 +9,7 @@ sudo apt install -y htop
 sudo apt install -y qutebrowser
 sudo apt install -y nano
 sudo apt install -y gnome-shell-pomodoro
+sudo apt install -y libreoffice
 #end APT repos
 #start installs of .debs etc.
 #VS Code
@@ -29,4 +30,11 @@ cd vit
 pip install vit
 mv vit .vitsrc
 #end VIT
+#gh cli
+if[arch|grep -q "aarch64"
+then
+curl https://github.com/cli/cli/releases/download/v2.5.2/gh_2.5.2_linux_arm64.deb
+sudo dpkg -i gh
+else
+
 #end non-APT installs
