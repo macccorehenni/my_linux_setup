@@ -29,4 +29,15 @@ cd vit
 pip install vit
 mv vit .vitsrc
 #end VIT
+#gh command line
+if arch|grep -q "aarch64"
+then
+echo new
+sudo dpkg -i gh_2.5.2_linux_arm64.deb
+else
+
+echo old
+sudo dpkg -i gh_2.5.2_linux_amd64.deb
+fi
+#end gh command line
 #end non-APT installs
