@@ -17,13 +17,6 @@ sudo apt install -y libreoffice
 #else install the AMD version
 if arch|grep -q "aarch64"
 then
-echo new
-sudo dpkg -i code_1.64.2-1644444223_arm64.deb
-else
-
-echo old
-sudo dpkg -i code_1.64.2-1644445741_amd64.deb
-fi
 #VIT
 git clone https://github.com/macccorehenni/vit.git
 cd vit
