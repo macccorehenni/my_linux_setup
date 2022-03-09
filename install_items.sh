@@ -15,8 +15,7 @@ sudo apt install -y libreoffice
 #VS Code
 #if running on aarch64, then install the ARM version
 #else install the AMD version
-if arch|grep -q "aarch64"
-then
+#no longer-- I'll use GIT instead
 #VIT
 git clone https://github.com/macccorehenni/vit.git
 cd vit
